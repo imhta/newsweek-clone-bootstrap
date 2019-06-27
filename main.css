@@ -36,19 +36,12 @@ body {
   height: 56px;
 }
 .page-header .header-bottom .page-nav {
-  display: flex;
   max-width: 1150px;
   width: 100%;
   height: 24px;
-  justify-content: center;
 }
 
-.flex-md {
-  display: flex;
-}
-.jc-c {
-  justify-content: center;
-}
+
 .page-header .header-bottom .page-nav li a {  
   text-decoration: none;
   outline: 0;
