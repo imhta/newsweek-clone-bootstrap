@@ -10,6 +10,8 @@ body{
   font-family: 'Roboto', sans-serif;
   background-color: #f4f5f6;
 }
+
+/* Page header starts */
 .page-header{
   min-width: 340px;
 }
@@ -68,9 +70,11 @@ body{
 }
 
 
+/* larger screen elements style starts */
+
 
 @media screen and (min-width: 992px){
-
+/* page header starts */
   .page-header{
     max-width: 1310px;
     margin: 0px auto;
@@ -101,6 +105,7 @@ body{
   .page-header .header-top a i{
     display: inline;
     color: #f72210;
+    margin-left: 10px; 
   }
   .date-col date{
     display: block;
@@ -121,28 +126,57 @@ body{
   .page-header .header-bottom { 
     height: 56px;
     background-color: white;
+    padding-right: 160px;
+    border-bottom: #f4f5f6 solid 1px;
   }
   .page-header .header-bottom .page-nav {
-    list-style: none;
     max-width: 1150px;
-    width: 100%;
     height: 24px;
+    margin: 0px;
   }
   
-  .page-header .header-bottom .page-nav .leaf a {  
+  .page-header .header-bottom .page-nav .leaf a { 
     text-decoration: none;
     outline: 0;
     color: black;
+
   }
   .page-header .header-bottom .page-nav .leaf {
+    display: list-item;
     border-left-color: #d9d9d9;
     flex-grow: 1;
     text-align: center;
-    border-right-width: 1px;
-    border-right-style: solid;
+    border-left-width: 1px;
+    border-left-style: solid;
     font-size: 21px;
     line-height: 24px;
     font-weight: bold;
     font-family: "Roboto Condensed",sans-serif;
+  }
+
+  .page-header .header-bottom form {
+    position: relative;
+    width: 60px;
+  }
+  .page-header .header-bottom form span{
+    position: absolute;
+    top: 0px;
+    right: -20px;
+    background: url(https://g.newsweek.com/www/images/icon-search-glass.svg) center/contain no-repeat white;
+    width: 20px;
+    height: 20px;
+    clip: auto;
+    font-size: 0;
+  }
+
+  .page-header .header-bottom::after{
+    position: absolute;
+    content: "";
+    height: 20px;
+    right: 0px;
+    font-size: 0px;
+    width: 100px;
+    border-top: 20px solid #f72210;
+    border-left: 20px solid transparent;
   }
 }
