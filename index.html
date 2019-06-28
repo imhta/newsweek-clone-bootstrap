@@ -23,38 +23,44 @@
     />
     <!-- Google Font -->
     <link
-      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap"
       rel="stylesheet"
     />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap" rel="stylesheet">
     <title>Newsweek</title>
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/6ef2157973.js"></script>
   </head>
   <body>
-    <header class="page-header fixed">
+    <header class="page-header">
       <div class="header-top">
-          <div class="row">
-        <div class="col">
+        <div class="row w-100 d-flex align-items-center justify-content-between">
+          <div class="col date-col">
+            <date>Mon, Jun 24, 2019</date>
+          </div>
+          <div class="col d-flex align-items-center justify-content-end">
+
+              <a
+                id="auth-btn"
+                class="text-uppercase"
+                target="_blank"
+                href="https://subscription.newsweek.com/auth"
+                >Sign In</a
+              >
+              <a
+                id="subscribe-btn"
+                class="text-uppercase"
+                target="_blank"
+                href="https://subscription.newsweek.com/subscribe?utm_source=NWwebsite&amp;utm_medium=top-nav&amp;utm_campaign=subscribe-button#12weeks"
+                >Subscribe
+                <i class="fas fa-chevron-right"></i>
+              </a>
             
-          <date class="float-sm-left">Mon, Jun 24, 2019</date>
+          </div>
         </div>
-        <div class="col">
-            <div class="wrapper float-sm-right">
-          <a
-            id="auth"
-            class="auth-btn"
-            target="_blank"
-            href="https://subscription.newsweek.com/auth"
-            >Sign In</a>
-          <a
-            class="subscribe-btn"
-            target="_blank"
-            href="https://subscription.newsweek.com/subscribe?utm_source=NWwebsite&amp;utm_medium=top-nav&amp;utm_campaign=subscribe-button#12weeks"
-            >Subscribe
-          </a>
-        </div>
-        </div>
-    </div>
       </div>
-      <div class="header-middle">
+      <div class="header-middle w-100 d-flex justify-content-between">
         <a class="brand" href="/">
           <svg
             version="1.1"
@@ -75,10 +81,13 @@
             </g>
           </svg>
         </a>
+        <span>
+          <i class="fas fa-bars"></i>
+        </span>
       </div>
-      <nav class="header-bottom">
-        <div class="flex-md jc-c">
-          <ul class="page-nav">
+      <nav class="header-bottom d-lg-flex">
+        <div class="d-flex align-items-center justify-content-center">
+          <ul class="page-nav d-flex justify-content-between">
             <li class="leaf">
               <a href="">
                 U.S.
@@ -117,11 +126,6 @@
             <li class="leaf">
               <a href="">
                 Opinion
-              </a>
-            </li>
-            <li class="leaf">
-              <a href="">
-                Ndliblee
               </a>
             </li>
           </ul>
