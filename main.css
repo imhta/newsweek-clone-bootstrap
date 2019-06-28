@@ -126,8 +126,12 @@ body{
   .page-header .header-bottom { 
     height: 56px;
     background-color: white;
-    padding-right: 160px;
     border-bottom: #f4f5f6 solid 1px;
+  }
+  .page-header .header-bottom .hb-wrapper{
+    width: 100%;
+    position: relative;
+    padding-right: 160px;
   }
   .page-header .header-bottom .page-nav {
     max-width: 1150px;
@@ -154,29 +158,39 @@ body{
     font-family: "Roboto Condensed",sans-serif;
   }
 
-  .page-header .header-bottom form {
-    position: relative;
+  .page-header .header-bottom form input{
+    position: absolute;
+    top: 16px;
+    right: 108px;
     width: 60px;
   }
-  .page-header .header-bottom form span{
+  .page-header .header-bottom form label{
     position: absolute;
-    top: 0px;
-    right: -20px;
+    top: 16px;
+    right: 88px;
     background: url(https://g.newsweek.com/www/images/icon-search-glass.svg) center/contain no-repeat white;
     width: 20px;
     height: 20px;
     clip: auto;
     font-size: 0;
   }
-
+  .page-header .header-bottom form input:focus-within{
+    width: 90%;
+  }
   .page-header .header-bottom::after{
     position: absolute;
     content: "";
     height: 20px;
     right: 0px;
     font-size: 0px;
-    width: 100px;
+    width: 88px;
     border-top: 20px solid #f72210;
     border-left: 20px solid transparent;
+  }
+}
+/* input grow-shrink */
+@media screen and (max-width: 1200px){
+  .page-header .header-bottom form input:focus-within{
+    width: 88%;
   }
 }
