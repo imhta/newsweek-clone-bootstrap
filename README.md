@@ -1,5 +1,5 @@
 # Newsweek clone bootstrap
-This is a Newsweek clone made with native HTML and CSS
+This is a Newsweek clone made with native HTML and CSS and with bootstrap. bulit on mobile first responsiveness approach.
 
 ##### Built With
 + HTML5
@@ -14,4 +14,4 @@ URL: [Newsweek](https://www.newsweek.com/)
 + Imhtapm [@imhtapm](https://github.com/imhtapm)
 
 # Preview
-Live Version:
+Live Version: [Preview](https://newsweek-clone-bootstrap.imhta.now.sh)
