@@ -20,7 +20,7 @@ a {
   min-width: 340px;
   width: 100%;
 }
-.date-col date {
+.date-col .date {
   display: none;
 }
 .page-header .header-bottom {
@@ -851,7 +851,7 @@ main {
     color: #f72210;
     margin-left: 10px;
   }
-  .date-col date {
+  .date-col .date {
     display: block;
     color: white;
   }
