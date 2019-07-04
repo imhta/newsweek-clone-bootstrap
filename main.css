@@ -69,6 +69,7 @@ a {
   padding: 10px 15px;
   color: white;
 }
+
 .page-header .header-middle span {
   font-size: 16px;
 }
@@ -150,6 +151,7 @@ main {
   line-height: 0.8;
 }
 .more-stories .more-articles .article h4 a {
+
   text-decoration: none;
   color: black;
   font: bold 17px "Roboto Condensed", sans-serif;
