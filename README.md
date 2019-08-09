@@ -11,7 +11,7 @@ This is a Newsweek clone made with native HTML and CSS and with bootstrap. bulit
 URL: [Newsweek](https://www.newsweek.com/)
 
 # Authors
-+ Imhtapm [@imhta](https://github.com/imhta)
++ Imhta [@imhta](https://github.com/imhta)
 
 # Preview
 Live Version: [Preview](https://newsweek-clone-bootstrap.imhta.now.sh)
